@@ -35,7 +35,28 @@ a.anchor-link {
 <body class="jp-Notebook theme-light" data-base-url="{{resources.base_url}}voila/">
 {% endif %}
 <div class="container">
-{{ super() }}
+  <div class="row justify-content-md-center">
+    <div class="col">
+      <h1> here goes the logo</h1>
+    </div>
+  </div>
+  <div class="row justify-content-md-center">
+    <div class="col">
+      <h5> here goes the navigation bar</h5>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-8">
+      {{ super() }}
+    </div>
+    <div class="col-4">
+    <ul>
+      <li> here goes a pic of someone </li>
+      <li> another author </li>
+      <li> last author </li>
+    </ul>
+    </div>
+  </div>
 </div>
 </body>
 {%- endblock body -%}
