@@ -47,8 +47,8 @@ a.anchor-link {
       <img src="{{resources.base_url}}voila/static/header.png" alt="HEADER">
     </div>
   </div>
-  <div class="row">
-    <div class="col-sm-8">
+  <div class="row justify-content-md-center">
+    <div class="col">
       {{ super() }}
     </div>
     <div class="col-sm-4">
@@ -62,4 +62,3 @@ a.anchor-link {
 </div>
 </body>
 {%- endblock body -%}
-
