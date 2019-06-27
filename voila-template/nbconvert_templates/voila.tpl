@@ -54,7 +54,7 @@ a.anchor-link {
       <img src="{{resources.base_url}}voila/static/ppiclogo.svg" alt="PPIC LOGO">
     </div>
   </div>
-  <div class="row justify-content-md-center">
+  <div class="row justify-content-md-center" style="height:116px;">
     <div class="col">
       <div id="site-navigation-sticky-wrapper" class="wpex-sticky-navigation-holder not-sticky" style="">
         <div id="site-navigation-wrap" class="navbar-style-two fixed-nav no-borders center-items clr" style="">
@@ -107,19 +107,17 @@ a.anchor-link {
               </li>
             </ul>
           </nav><!-- #site-navigation -->
+        </div>
       </div>
     </div>
-  </div>
   </div>
   <div class="row justify-content-md-center">
     <div class="col">
       {{ super() }}
     </div>
     <div class="col-sm-4">
-      <ul>
-        <li><div class="ppic-entry-line"><img src="https://www.ppic.org/wp-content/uploads/staff-photo-sergio-sanchez-220x198.jpg" class="attachment-120x108 size-120x108 wp-post-image" alt="Photo of Sergio Sanchez" srcset="https://www.ppic.org/wp-content/uploads/staff-photo-sergio-sanchez-220x198.jpg 220w, https://www.ppic.org/wp-content/uploads/staff-photo-sergio-sanchez.jpg 260w" sizes="(max-width: 120px) 100vw, 120px" width="120" height="108"><a href="https://www.ppic.org/person/sergio-sanchez/">Sergio Sánchez</a><br>Research Associate</div></li>
-        <li><div class="ppic-entry-line"><img src="https://www.ppic.org/wp-content/uploads/staffphoto-hayes-220x198.jpg" class="attachment-120x108 size-120x108 wp-post-image" alt="Photo of Joseph Hayes" srcset="https://www.ppic.org/wp-content/uploads/staffphoto-hayes-220x198.jpg 220w" sizes="(max-width: 120px) 100vw, 120px" width="120" height="108"><a href="https://www.ppic.org/person/joseph-hayes/">Joseph Hayes</a><br>Research Associate</div></li>
-      </ul>
+        <div class="ppic-entry-line"><img src="https://www.ppic.org/wp-content/uploads/staff-photo-sergio-sanchez-220x198.jpg" class="attachment-120x108 size-120x108 wp-post-image" alt="Photo of Sergio Sanchez" srcset="https://www.ppic.org/wp-content/uploads/staff-photo-sergio-sanchez-220x198.jpg 220w, https://www.ppic.org/wp-content/uploads/staff-photo-sergio-sanchez.jpg 260w" sizes="(max-width: 120px) 100vw, 120px" width="120" height="108"><a href="https://www.ppic.org/person/sergio-sanchez/">Sergio Sánchez</a><br>Research Associate</div>
+        <div class="ppic-entry-line"><img src="https://www.ppic.org/wp-content/uploads/staffphoto-hayes-220x198.jpg" class="attachment-120x108 size-120x108 wp-post-image" alt="Photo of Joseph Hayes" srcset="https://www.ppic.org/wp-content/uploads/staffphoto-hayes-220x198.jpg 220w" sizes="(max-width: 120px) 100vw, 120px" width="120" height="108"><a href="https://www.ppic.org/person/joseph-hayes/">Joseph Hayes</a><br>Research Associate</div>
     </div>
   </div>
 </div>
