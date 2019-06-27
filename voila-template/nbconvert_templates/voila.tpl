@@ -3,6 +3,8 @@
 
 {%- block html_head_css -%}
 <link rel="stylesheet" type="text/css" href="{{resources.base_url}}voila/static/index.css"></link>
+
+<link rel="stylesheet" type="text/css" href="{{resources.base_url}}voila/static/ppic.css"></link>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 {% if resources.theme == 'dark' %}
     <link rel="stylesheet" type="text/css" href="{{resources.base_url}}voila/static/theme-dark.css"></link>
@@ -37,24 +39,24 @@ a.anchor-link {
 <div class="container">
   <div class="row justify-content-md-center">
     <div class="col">
-      <h1> here goes the logo</h1>
+      <img src="{{resources.base_url}}voila/static/ppiclogo.svg" alt="PPIC LOGO">
     </div>
   </div>
   <div class="row justify-content-md-center">
     <div class="col">
-      <h5> here goes the navigation bar</h5>
+      <img src="{{resources.base_url}}voila/static/header.png" alt="HEADER">
     </div>
   </div>
   <div class="row">
-    <div class="col-8">
+    <div class="col-sm-8">
       {{ super() }}
     </div>
-    <div class="col-4">
-    <ul>
-      <li> here goes a pic of someone </li>
-      <li> another author </li>
-      <li> last author </li>
-    </ul>
+    <div class="col-sm-4">
+      <ul>
+        <li> here goes a pic of someone </li>
+        <li> another author </li>
+        <li> last author </li>
+      </ul>
     </div>
   </div>
 </div>
