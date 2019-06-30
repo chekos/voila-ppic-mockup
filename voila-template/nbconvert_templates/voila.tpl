@@ -51,7 +51,7 @@ a.anchor-link {
 <div class="container">
   <div class="row justify-content-md-center">
     <div class="col" >
-      <img src="{{resources.base_url}}voila/static/ppiclogo.svg" alt="PPIC LOGO" style="max-width:90%">
+      <img src="{{resources.base_url}}voila/static/ppiclogo.svg" alt="PPIC LOGO">
     </div>
   </div>
   <div class="row justify-content-md-center" style="height:116px;">
@@ -116,8 +116,8 @@ a.anchor-link {
       {{ super() }}
     </div>
     <div class="col-sm-4">
-        <div class="ppic-entry-line"><img src="https://www.ppic.org/wp-content/uploads/staff-photo-sergio-sanchez-220x198.jpg" class="attachment-120x108 size-120x108 wp-post-image" alt="Photo of Sergio Sanchez" srcset="https://www.ppic.org/wp-content/uploads/staff-photo-sergio-sanchez-220x198.jpg 220w, https://www.ppic.org/wp-content/uploads/staff-photo-sergio-sanchez.jpg 260w" sizes="(max-width: 120px) 100vw, 120px" width="120" height="108"><a href="https://www.ppic.org/person/sergio-sanchez/">Sergio Sánchez</a><br>Research Associate</div>
-        <div class="ppic-entry-line"><img src="https://www.ppic.org/wp-content/uploads/staffphoto-hayes-220x198.jpg" class="attachment-120x108 size-120x108 wp-post-image" alt="Photo of Joseph Hayes" srcset="https://www.ppic.org/wp-content/uploads/staffphoto-hayes-220x198.jpg 220w" sizes="(max-width: 120px) 100vw, 120px" width="120" height="108"><a href="https://www.ppic.org/person/joseph-hayes/">Joseph Hayes</a><br>Research Associate</div>
+        <div class="ppic-entry-line"><img src="https://www.ppic.org/wp-content/uploads/staff-photo-sergio-sanchez-220x198.jpg" class="attachment-120x108 size-120x108 wp-post-image" alt="Photo of Sergio Sanchez" srcset="https://www.ppic.org/wp-content/uploads/staff-photo-sergio-sanchez-220x198.jpg 220w, https://www.ppic.org/wp-content/uploads/staff-photo-sergio-sanchez.jpg 260w" sizes="(max-width: 120px) 100vw, 120px" width="120" height="108"><a href="https://www.ppic.org/person/sergio-sanchez/"><br>Sergio Sánchez</a><br>Research Associate</div>
+        <div class="ppic-entry-line"><img src="https://www.ppic.org/wp-content/uploads/staffphoto-hayes-220x198.jpg" class="attachment-120x108 size-120x108 wp-post-image" alt="Photo of Joseph Hayes" srcset="https://www.ppic.org/wp-content/uploads/staffphoto-hayes-220x198.jpg 220w" sizes="(max-width: 120px) 100vw, 120px" width="120" height="108"><a href="https://www.ppic.org/person/joseph-hayes/"><br>Joseph Hayes</a><br>Research Associate</div>
     </div>
   </div>
 </div>
