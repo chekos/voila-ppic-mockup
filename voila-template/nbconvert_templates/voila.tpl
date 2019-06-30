@@ -50,7 +50,7 @@ a.anchor-link {
 {% endif %}
 <div class="container">
   <div class="row justify-content-md-center">
-    <div class="col">
+    <div class="col" style="max-width:90%">
       <img src="{{resources.base_url}}voila/static/ppiclogo.svg" alt="PPIC LOGO">
     </div>
   </div>
